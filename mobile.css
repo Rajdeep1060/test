@@ -1,0 +1,1197 @@
+
+body h2{
+    font-family: 'Yatra One', cursive;
+}
+body ul{
+    font-family: 'Shadows Into Light', cursive;
+}
+/* NAVBAR */
+ .navbar{
+    background-image:linear-gradient(to right,cyan,transparent);
+    font-size: 20px;
+    color:white;
+}
+.navbar .navbar-nav{
+    margin-left: 70px;
+}
+.navbar-nav .nav-item{
+    padding-left:30px;
+    transition:all 0.2s ease-in;
+} 
+.navbar-nav .nav-item:hover{
+   background:linear-gradient(to right,cyan, white);
+   border-radius: 5px;
+   box-shadow:2px 2px grey;
+} 
+.navbar-nav .nav-item .nav-link:hover{
+       text-decoration: none;
+}
+/* .nav-item:hover{
+    text-decoration: underline;
+} */
+/* NAVBAR */
+/* MAIN CLASS */
+.main #a{
+    margin-top:1%;
+    margin-left:30%;
+    animation:type 3s 4 steps(31);
+    animation-delay:1s;
+    overflow:hidden;
+    white-space:nowrap;
+    font-family: 'Lobster', cursive;
+    border-right:4px solid black;
+    width:27ch;
+}
+
+@keyframes type{
+    0%{
+      width:0ch;
+      color:black;
+    }
+    100%{
+        width:31ch;
+        color:cyan;
+    }
+}
+.carousel-inner .w-100{
+    width:88%;
+    height:68vh !important;
+}
+.carousel-item{
+    font-family: 'Syne Mono', monospace;
+}
+
+/* APPLE */
+#applelogo{
+    margin:1% 42% -1%;
+    height:120px;
+    
+}
+.apple{
+    display:flex;
+    margin-top:3%;
+    margin-left:3%;
+    flex-shrink: 2;
+}
+.main img{
+    transition:all 0.3s ease-in-out;
+}
+/* IPHONE12 */
+
+#iphone12 h2{
+    margin-left:12%;
+    font-size:37px;
+}
+.apple #iphone12 img{
+   margin-top:-5%;
+    height:300px;
+    width:300px;
+    transition:all 0.3s ease-in-out;
+
+}
+.apple #iphone12 button{
+    margin-top:2%;
+    margin-left:15%;
+    border-radius:4px;
+    width:120px;
+    background-color:black;
+    color:white;
+
+}
+.apple #iphone12 button:hover{
+   opacity: 0.8;
+
+}
+.apple #iphone12{
+    transition:all 2s ease-in-out;
+}
+#iphone12:hover{
+    box-shadow:2px 3px #D3D3D3;
+}
+
+.apple #iphone12 img:hover{
+    transform:scale(1.1);
+}
+/* /IPHONE12 */
+/* IPHONE 12 PRO MAX */
+.apple #iphone12promax{
+    padding-left:2%;
+    margin:-5px;
+}
+.apple #iphone12promax h2{
+    font-size:37px;
+    margin-left:6%;
+}
+.apple #iphone12promax img{
+    margin-top:-1%;
+    height:300px;
+    width:340px;
+
+}
+.apple #iphone12promax ul{
+    margin-top:-1%;
+}
+#iphone12promax form{
+    margin:1% 24%;
+}
+.apple #iphone12promax button{
+    margin-top:2%;
+    margin-left:26%;
+    border-radius:4px;
+    width:120px;
+    background-color:black;
+    color:white;
+
+}
+.apple #iphone12promax button:hover{
+   opacity: 0.8;
+}
+.apple #iphone12promax{
+    transition:all 2s ease-in-out;
+}
+.apple #iphone12promax:hover{
+    box-shadow:2px 3px #D3D3D3;
+}
+
+.apple #iphone12promax img:hover{
+    transform:scale(1.1);
+   
+}
+/* /IPHONE 12 PRO MAX */
+/* IPHONE 12 Pro */
+.apple #iphone12pro{
+    padding-left:2%;
+    margin:-5px;
+}
+.apple #iphone12pro h2{
+    font-size:37px;
+    margin-left:10%;
+}
+.apple #iphone12pro img{
+    margin-top:-1%;
+    height:300px;
+    width:340px;
+
+}
+.apple #iphone12pro ul{
+    margin-top:-1%;
+}
+.apple #iphone12pro button{
+    margin-top:2%;
+    margin-left:26%;
+    border-radius:4px;
+    width:120px;
+    background-color:black;
+    color:white;
+
+}
+.apple #iphone12pro button:hover{
+   opacity: 0.8;
+}
+.apple #iphone12pro{
+    transition:all 2s ease-in-out;
+}
+.apple #iphone12pro:hover{
+    box-shadow:2px 3px #D3D3D3;
+}
+
+.apple #iphone12pro img:hover{
+    transform:scale(1.1);
+   
+}
+/* /IPHONE 12 PRO */
+/* APPLE1 */
+.apple1{
+    display:flex;
+    margin-top:2%;
+    padding-left:3%;
+    flex-shrink: 2;
+}
+/* IPHONE 12 MINI */
+.apple1 #iphone12mini{
+    padding-left:2%;
+    margin:-5px;
+}
+.apple1 #iphone12mini h2{
+    margin-top:3%;
+    font-size:37px;
+}
+.apple1 #iphone12mini img{
+    border-radius:5px;
+    margin-top:1%;
+    margin-left:-8%;
+    height:280px;
+    width:310px;
+
+}
+.apple1 #iphone12mini ul{
+    margin-top:-2%;
+    margin-left:-6%;
+}
+.apple1 #iphone12mini button{
+     margin-left:18%;
+     margin-top:2%;
+     border-radius:4px;
+     background-color:black;
+    color:white;
+    width:120px;
+}
+.apple1 #iphone12mini button:hover{
+    opacity: 0.8;
+}
+
+.apple1 #iphone12mini{
+    transition:all 2s ease-in-out;
+}
+#iphone12mini:hover{
+    box-shadow:2px 3px #D3D3D3;
+}
+
+
+.apple1 #iphone12mini img:hover{
+    transform:scale(1.1);
+   
+}
+/* APPLE 12 MINI */
+/* APPLE 11 PRO MAX */
+.apple1 #iphone11promax{
+    margin:0 2%;
+}
+.apple1 #iphone11promax h2{
+    margin-top:3%;
+    font-size:37px;
+}
+.apple1 #iphone11promax img{
+    border-radius:5px;
+    margin-top:-1%;
+    margin-left:-1%;
+    height:280px;
+    width:310px;
+
+}
+.apple1 #iphone11promax ul{
+    margin-top:-2%;
+    margin-left:-1%;
+}
+.apple1 #iphone11promax button{
+    margin-left:25%;
+    margin-top:2%;
+    border-radius:4px;
+    background-color:black;
+   color:white;
+   width:120px;
+}
+.apple1 #iphone11promax button:hover{
+  opacity: 0.8;
+
+}
+.apple1 #iphone11promax{
+    transition:all 2s ease-in-out;
+}
+#iphone11promax:hover{
+    box-shadow:2px 3px #D3D3D3;
+}
+
+
+.apple1 #iphone11promax img:hover{
+    transform:scale(1.1);
+}
+/* APPLE 11 PRO MAX */
+/* APPLE XS MAX */
+.apple1 #iphonexsmax{
+   margin:0% 3%;
+}
+.apple1 #iphonexsmax h2{
+    margin:3% 15%;
+    font-size:37px;
+}
+.apple1 #iphonexsmax img{
+    border-radius:5px;
+    margin-top:1%;
+    margin-left:9%;
+    height:280px;
+    width:280px;
+      transition: all 0.3s ease-in-out;
+}
+.apple1 #iphonexsmax ul{
+    margin-top:2%;
+    margin-left:4%;
+}
+.apple1 #iphonexsmax button{
+    margin-left:18%;
+    margin-top:2%;
+    border-radius:4px;
+    background-color:black;
+   color:white;
+   width:120px;
+}
+.apple1 #iphonexsmax button:hover{
+   opacity: 0.8;
+}
+.apple1 #iphonexsmax{
+    transition:all 2s ease-in-out;
+}
+
+#iphonexsmax:hover{
+    box-shadow:2px 3px #D3D3D3;
+}s
+
+.apple1 #iphonexsmax img:hover{
+    transform:scale(1.1);
+   
+}
+
+
+/* APPLE */
+/* SAMSUNG */
+.samsung{
+    display:flex;
+}
+#samsung-icon{
+    height:95px;
+    width:280px;
+   margin:2% 40%;
+    border:2px solid black;
+    border-radius:8px;
+    box-shadow:3px 3px #D3D3D3,-3px -3px #D3D3D3;
+}
+.samsung #s21{
+    margin-left:4%;
+    margin-top:1%;
+}
+.samsung #s21 h2{
+    margin-top:3%;
+    margin-left:1%;
+    font-size:43px;
+    padding:3px;
+}
+.samsung #s21 img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:2%;
+    height:250px;
+    width:240px;
+
+}
+.samsung #s21 ul{
+    margin-top:2%;
+    margin-left:-4%;
+}
+.samsung #s21 button{
+     margin-left:12%;
+     margin-top:-3%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+.samsung #s21 button:hover{
+    opacity:0.8;
+}
+.samsung #s21{
+    transition:all 2s ease-in-out;
+}
+.samsung #s21 img:hover{
+    transform:scale(1.1);
+}
+.samsung #s21ultra{
+    margin:5px -5% 0 6%;
+    width:30%;
+    padding-left:2%;
+    display:flex;
+    flex-direction: column;
+}
+.samsung #s21ultra h2{
+    margin-top:4%;
+   width:400px;
+    font-size:43px;
+    display:inline;
+}
+.samsung #s21ultra img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:15%;
+    height:250px;
+    width:240px;
+
+}
+.samsung #s21ultra ul{
+    margin-top:2%;
+    margin-left:2%;
+    padding-left:11%;
+}
+.samsung #s21ultra button{
+    margin-left:26%;
+    margin-top:2%;
+    border-radius:4px;
+    width:120px;
+    color:white;background-color: black;
+}
+.samsung #s21ultra button:hover{
+   opacity:0.8;
+}
+.samsung #s21ultra{
+    transition:all 2s ease-in-out;
+}
+.samsung #s21ultra img:hover{
+    transform:scale(1.1);
+
+}
+/* SAMSUNG S21 ULTRA */
+/* SAMSUNG S20 FE */
+.samsung #s20fe{
+    margin-right:-3%;
+    margin-left:9%;
+    display:flex;
+    flex-direction: column;
+} 
+.samsung #s20fe h2{
+    margin-top:3%;
+    margin-left:7%;
+    font-size:43px;
+    padding:3px;
+}
+.samsung #s20fe img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:15%;
+    height:250px;
+    width:280px;
+
+}
+.samsung #s20fe ul{
+    margin-top:2%;
+    margin-left:2%;
+    padding-left:11%;
+}
+.samsung #s20fe button{
+    margin-left:26%;
+    margin-top:1%;
+    border-radius:4px;
+    width:120px;
+    color:white;background-color: black;
+}
+.samsung #s20fe button:hover{
+   opacity:0.8;
+}
+.samsung #s20fe{
+    transition:all 2s ease-in-out;
+}
+.samsung #s20fe img:hover{
+    transform:scale(1.1);
+
+}
+/* /SAMSUNG S20 FE */
+.samsung1{
+    display:flex;
+}
+/* SAMSUNG S21 PLUS */
+.samsung1 #s21plus{
+    margin-left:1%;
+    margin-top:2%;
+} 
+.samsung1 #s21plus h2{
+    margin-top:3%;
+    margin-left:7%;
+    font-size:43px;
+    padding:3px;
+    width:400px;
+}
+.samsung1 #s21plus img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:10%;
+    height:250px;
+    width:280px;
+
+}
+.samsung1 #s21plus ul{
+    margin-top:2%;
+    margin-left:2%;
+    padding-left:11%;
+}
+.samsung1 #s21plus button{
+    margin-left:22%;
+    margin-top:1%;
+    border-radius:4px;
+    width:120px;
+    color:white;
+    background-color: black;
+}
+.samsung1 #s21plus button:hover{
+   opacity:0.8;
+}
+.samsung1 #s21plus{
+    transition:all 2s ease-in-out;
+}
+.samsung1 #s21plus img:hover{
+    transform:scale(1.1);
+}
+/* SAMSUNG F62 */
+.samsung1 #f62{
+    margin-left:4%;
+    margin-top:2%;
+} 
+.samsung1 #f62 h2{
+    margin-top:3%;
+    margin-left:7%;
+    font-size:43px;
+    padding:3px;
+    width:450px;
+}
+.samsung1 #f62 img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:14%;
+    height:250px;
+    width:280px;
+
+}
+.samsung1 #f62 ul{
+    margin-top:2%;
+    margin-left:2%;
+    padding-left:11%;
+}
+.samsung1 #f62 button{
+    margin-left:25%;
+    margin-top:1%;
+    border-radius:4px;
+    width:120px;
+    color:white;background-color: black;
+}
+.samsung1 #f62 button:hover{
+   opacity:0.8;
+}
+.samsung1 #f62{
+    transition:all 2s ease-in-out;
+}
+.samsung1 #f62 img:hover{
+    transform:scale(1.1);
+}
+/* SAMSUNG A72 */
+.samsung1 #a72{
+    margin-left:5%;
+    margin-top:2%;
+} 
+.samsung1 #a72 h2{
+    margin-top:3%;
+    margin-left:7%;
+    font-size:43px;
+    display:inline;
+}
+.samsung1 #a72 img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:18%;
+    height:250px;
+    width:240px;
+
+}
+.samsung1 #a72 ul{
+    margin-top:2%;
+    margin-left:2%;
+    padding-left:11%;
+}
+.samsung1 #a72 button{
+    margin-left:25%;
+    margin-top:-3%;
+    border-radius:4px;
+    width:120px;
+    color:white;background-color: black;
+}
+.samsung1 #a72 button:hover{
+   opacity:0.8;
+}
+.samsung1 #a72{
+    transition:all 2s ease-in-out;
+}
+.samsung1 #a72 img:hover{
+    transform:scale(1.1);
+}
+
+/* MI */
+#milogo{
+   margin:3% 37% 0%;
+    height: 125px;
+}
+.mi{
+    display: flex;
+}
+.mi #note10pro{
+    margin-top:2%;
+} 
+.mi #note10pro h2{
+    margin-top:3%;
+    margin-left:7%;
+    width:400px;
+    font-size:39px;
+}
+.mi #note10pro img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:5%;
+    height:250px;
+    width:300px;
+}
+#note10pro img:hover{
+    transform:scale(1.1);
+}
+.mi #note10pro ul{
+    margin-top:2%;
+    margin-left:2%;
+    padding-left:11%;
+}
+.mi #note10pro button{
+     margin-left:19%;
+     margin-top:-1%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+.mi #note10pro button:hover{
+   opacity:0.8;
+}
+.mi #note10pro{
+    transition:all 2s ease-in-out;
+}
+.mi #note10pro:hover{
+    box-shadow:2px 2px grey;
+}
+.mi #note10promax{
+    margin-top:2%;
+    
+    margin-left:5%;
+    transition:all 2s ease-in-out;
+} 
+.mi #note10promax h2{
+    margin-top:3%;
+    margin-left:7%;
+    font-size:39px;
+    width:460px;
+}
+.mi #note10promax img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:15%;
+    height:250px;
+    width:300px;
+
+
+}
+#note10promax img:hover{
+    transform:scale(1.1);
+}
+.mi #note10promax ul{
+    margin-top:2%;
+    margin-left:2%;
+    padding-left:11%;
+}
+.mi #note10promax button{
+     margin-left:27%;
+     margin-top:-1%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+.mi #note10promax button:hover{
+   opacity:0.8;
+}
+
+.mi #note10promax:hover{
+      box-shadow: 2px 2px grey;
+}
+
+/* NOTE10 */
+.mi #note10{
+    margin-top:2%;
+    margin-left:6%;
+    transition:all 2s ease-in-out;
+} 
+.mi #note10 h2{
+    margin-top:3%;
+    margin-left:15%;
+    font-size:39px;
+    width:460px;
+}
+.mi #note10 img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:19%;
+    height:240px;
+    width:230px;
+
+}
+#note10 img:hover{
+    transform:scale(1.1);
+}
+.mi #note10 ul{
+    margin-top:2%;
+    margin-left:2%;
+    padding-left:11%;
+}
+.mi #note10 button{
+     margin-left:29%;
+     margin-top:-1%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+.mi #note10 button:hover{
+   opacity:0.8;
+}
+
+.mi #note10:hover{
+      box-shadow: 2px 2px grey;
+}
+
+
+
+.mi1{
+    display:flex;
+}
+#mi11{
+    margin-top:2%;
+    margin-left:-2%;
+    transition:all 2s ease-in-out;
+} 
+#mi11 h2{
+    margin-top:3%;
+    margin-left:21%;
+    font-size:39px;
+    width:460px;
+}
+ #mi11 img{
+    border-radius:5px;
+    margin-top:5%;
+    margin-left:19%;
+    height:240px;
+    width:220px;
+
+}
+#mi11 img:hover{
+    transform:scale(1.1);
+}
+#mi11 ul{
+    margin-top:3%;
+    margin-left:2%;
+    padding-left:11%;
+}
+ #mi11 button{
+     margin-left:29%;
+     margin-top:-1%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+#mi11 button:hover{
+   opacity:0.8;
+}
+ #mi11:hover{
+      box-shadow: 2px 2px grey;
+}
+#mi11ultra{
+    margin-top:2%;
+    margin-left:4%;
+    transition:all 2s ease-in-out;
+} 
+#mi11ultra h2{
+    margin-top:3%;
+    margin-left:22%;
+    font-size:39px;
+    width:460px;
+}
+ #mi11ultra img{
+    border-radius:5px;
+    margin-top:1%;
+    margin-left:13%;
+    height:300px;
+    width:350px;
+
+}
+#mi11ultra img:hover{
+    transform:scale(1.1);
+}
+#mi11ultra ul{
+  
+    margin-left:2%;
+    padding-left:11%;
+}
+ #mi11ultra button{
+     margin-left:38%;
+     margin-top:-3%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+#mi11ultra button:hover{
+   opacity:0.8;
+}
+ #mi11ultra:hover{
+      box-shadow: 2px 2px grey;
+}
+
+#mi10t{
+    margin-top:2%;
+    margin-left:4%;
+    transition:all 2s ease-in-out;
+} 
+#mi10t h2{
+    margin-top:3%;
+    margin-left:29%;
+    font-size:39px;
+    width:460px;
+}
+ #mi10t img{
+    border-radius:5px;
+    margin-top:1%;
+    margin-left:13%;
+    height:300px;
+    width:350px;
+
+}
+#mi10t img:hover{
+    transform:scale(1.1);
+}
+#mi10t ul{
+  
+    margin-left:2%;
+    padding-left:11%;
+}
+ #mi10t button{
+     margin-left:38%;
+     margin-top:-3%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+#mi10t button:hover{
+   opacity:0.8;
+}
+ #mi10t:hover{
+      box-shadow: 2px 2px grey;
+}
+
+.link{
+    margin-left:40%;margin-top:1%;
+}
+.link a{
+    text-decoration: none;
+    color:black;
+    font-size:28px;
+    margin:-1% -2%;
+    transition:all 0.5s ease-in-out;
+    text-decoration: underline;
+}
+.link a:hover{
+    color:white;
+    background-color: black;
+    border-radius:4px;
+    text-decoration: none;
+
+}
+/* REALME */
+.logo{
+    height:123px;
+    width:240px;
+   border-radius:5%;
+    margin:3% 41% 1%;
+    box-shadow:3px 2px grey; opacity: 0.9;
+}
+.realme{
+    display: flex;
+}
+.realme8{
+    transition:all 2s ease-in-out;
+    margin:0 -2%;
+} 
+.realme8 h2{
+    margin-top:3%;
+    margin-left:16%;
+    font-size:39px;
+    width:460px;
+}
+ .realme8 img{
+    border-radius:5px;
+    margin-top:1%;
+    margin-left:3%;
+    height:300px;
+    width:330px;
+
+}
+.realme8 img:hover{
+    transform:scale(1.1);
+}
+.realme8 ul{
+  
+    margin-left:2%;
+    padding-left:11%;
+}
+.realme8 button{
+     margin-left:25%;
+     margin-top:-3%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+.realme8 button:hover{
+   opacity:0.8;
+}
+.realme8:hover{
+      box-shadow: 2px 2px grey;
+}
+
+.realmex7{
+    margin:0 7%;
+    transition:all 2s ease-in-out;
+} 
+.realmex7 h2{
+    margin-top:3%;
+    margin-left:14%;
+    font-size:39px;
+    width:460px;
+}
+ .realmex7 img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:7%;
+    height:300px;
+    width:330px;
+
+}
+.realmex7 img:hover{
+    transform:scale(1.1);
+}
+.realmex7 ul{
+  
+    margin-left:2%;
+    padding-left:11%;
+}
+.realmex7 button{
+     margin-left:25%;
+     margin-top:-3%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+.realmex7 button:hover{
+   opacity:0.8;
+}
+.realmex7:hover{
+      box-shadow: 2px 2px grey,-2px -2px grey;
+}
+
+.realmeNarzo{
+    margin:0 0%;
+    transition:all 2s ease-in-out;
+} 
+.realmeNarzo h2{
+    margin-top:3%;
+    margin-left:8%;
+    font-size:39px;
+    width:460px;
+}
+ .realmeNarzo img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:7%;
+    height:300px;
+    width:330px;
+
+}
+.realmeNarzo img:hover{
+    transform:scale(1.1);
+}
+.realmeNarzo ul{
+  
+    margin-left:2%;
+    padding-left:11%;
+}
+.realmeNarzo button{
+     margin-left:25%;
+     margin-top:-3%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+.realmeNarzo button:hover{
+   opacity:0.8;
+}
+.realmeNarzo:hover{
+      box-shadow: 2px 2px grey;
+}
+.realme1{
+    display: flex;
+}
+.realme8p{
+    margin:2% 0%;
+    transition:all 2s ease-in-out;
+} 
+.realme8p h2{
+    margin-top:4%;
+    margin-left:11%;
+    font-size:39px;
+    width:460px;
+}
+.realme8p img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:1%;
+    height:300px;
+    width:330px;
+
+}
+.realme8p img:hover{
+    transform:scale(1.1);
+}
+.realme8p ul{
+  
+    margin-left:2%;
+    padding-left:11%;
+}
+.realme8p button{
+     margin-left:25%;
+     margin-top:-3%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+.realme8p button:hover{
+   opacity:0.8;
+}
+.realme8p:hover{
+      box-shadow: 2px 2px grey;
+}
+
+/* realmex50 */
+.realmex50{
+    margin:2% 4%;
+    transition:all 2s ease-in-out;
+} 
+.realmex50 h2{
+    margin-top:4%;
+    margin-left:9%;
+    font-size:39px;
+    width:460px;
+}
+.realmex50 img{
+    border-radius:5px;
+    margin-top:2%;
+    margin-left:3%;
+    height:300px;
+    width:330px;
+
+}
+.realmex50 img:hover{
+    transform:scale(1.1);
+}
+.realmex50 ul{
+  
+    margin:1% 2%;
+    padding-left:11%;
+}
+.realmex50 button{
+     margin-left:25%;
+     margin-top:1%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+.realmex50 button:hover{
+   opacity:0.8;
+}
+.realmex50:hover{
+      box-shadow: 2px 2px grey;
+}
+/* realmec25 */
+.realmec25{
+    margin:2% 5%;
+    transition:all 2s ease-in-out;
+} 
+.realmec25 h2{
+    margin-top:4%;
+    margin-left:9%;
+    font-size:39px;
+    width:460px;
+}
+ .realmec25 img{
+    border-radius:5px;
+    margin-top:4%;
+    margin-left:4%;
+    height:300px;
+    width:270px;
+
+}
+.realmec25 img:hover{
+    transform:scale(1.1);
+}
+.realmec25 ul{
+  
+    margin:2% 2%;
+    padding-left:11%;
+}
+.realmec25 button{
+     margin-left:25%;
+     margin-top:1%;
+     border-radius:4px;
+     width:120px;
+     color:white;background-color: black;
+}
+.realmec25 button:hover{
+   opacity:0.8;
+}
+.realmec25:hover{
+      box-shadow: 2px 2px grey;
+}
+
+.cartContainer {
+    margin-top: 4rem;
+    font-size:20px;
+    text-align: center
+}
+
+.cartContainer img {
+    width: 100px!important;
+    height: 100px!important;
+}
+
+.headingTop {
+    border-top: 1px solid black;
+}
+
+.heading {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.cartTitle {
+    color: red;
+    margin-top: 3rem;
+}
+
+.cartPrice {
+    margin-top: 3rem;
+}
+
+.removeButton {
+    background: Red;
+    cursor: pointer;
+    color: white;
+    height:50px;
+    width: 50px;
+}
+
+.cartQty {
+    margin-top: 3rem;
+}
+
+.form-control {
+    color: #000;
+    background-color: #e4cece;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 0rem 1rem
+}
+
+.totalPrice {
+    margin-top: 4rem;
+    font-size: 22px;
+};

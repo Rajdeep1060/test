@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.team {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left:33%;
+  width:500px;
+  overflow:hidden;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+#name{
+color:cyan;
+text-shadow: 2px 1px yellow;
+font-size:40px;
+}
+#ab{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <h2 id="name">The Essentials</h2>
+  <p id="ab">Essentials was established in the year of 2002. We are a leading Manufacturer & supplier of Mobiles,Laptops,speakers,electronic acessories etc. industry, we are engaged in offering high quality and durable items to our patrons. The entire range is available with us in numerous specifications.
+</p>
+</div>
+
+<h2 style="text-align:center;font-size:40px;">Our Team</h2>
+  <div class="team">
+    <div class="card">
+      <img src="AboutImages/Rajdeep.jpeg" alt="Rajdeep Singh" style="width:100%;height:400px;">
+      <div class="container">
+        <h2>Rajdeep Singh</h2>
+        <p class="title"> Mobile Designer</p>
+        <p>rajdeepsinghsethi715@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="team">
+    <div class="card">
+      <img src="AboutImages/nikhil.jpeg" alt="Nikhil Bakshi" style="width:100%;height:400px;">
+      <div class="container">
+        <h2>Nikhil Bakshi</h2>
+        <p class="title">Laptop Designer</p>
+        
+        <p>nikhil@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="team">
+    <div class="card">
+      <img src="AboutImages/Rakshit.jpeg" alt="Rakshit Bhagla" style="width:100%;height:600px;">
+      <div class="container">
+        <h2>Rakshit Baghla</h2>
+        <p class="title"> Acessories Designer</p>
+        <p>rakshit@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="team">
+    <div class="card">
+      <img src="AboutImages/hijk.jpg" alt="Meenal Joshi" style="width:100%;height:600px;">
+      <div class="container">
+        <h2>Meenal Joshi</h2>
+        <p class="title"> Speaker Designer</p>
+        <p>meenal@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

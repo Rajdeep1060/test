@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height:300px;
+            width: 300px;
+            transition:all 0.3s ease-in-out;
+            /* animation:rotate 3s infinite ease-in; */
+            perspective:100px;
+        }
+        img:hover{
+            animation:rotate 4s infinite;
+        }
+       @keyframes rotate {
+           0%{
+               transform:rotate(0deg);
+           }
+           100%{
+                transform:rotateY(360deg); 
+             box-shadow:2px 2px 4px grey,-2px -3px 4px grey;
+           }
+       }
+        .specs{
+            margin:4% 1%;
+            box-shadow: 3px 2px 5px grey,-3px -2px 5px grey;
+            display:none;
+            background-color:black;
+            color:white;
+            border-radius: 5px;
+            width:30%;
+            text-align: center;
+        }
+      button{
+          background-color:#13aa52;
+          color:white;
+          height:40px;
+          font-weight: bold;
+          font-size:15px;
+          margin-left:30%;
+          box-shadow:2px 2px 3px grey;
+          width:130px;
+          outline:white;
+          border-radius: 3px;
+          margin-top:-5%;
+          transition:all 0.3s ease-in;
+          transform: translateY(5px);
+      }
+      button:hover{
+          transform:translate(0,-10px);
+          background-color:black;
+      }
+    </style>
+</head>
+<body>
+    <img id="img" src="iphone xs max.png">
+    <div class="specs">
+        6.7-inch (17 cm diagonal) Super Retina XDR display<br>
+        A14 Bionic chip, the fastest chip ever in a smartphone<br>
+        Pro camera system with 12MP Ultra Wide, Wide and Telephoto cameras<br>
+        LiDAR Scanner for improved AR experiences, Night mode portraits
+        128GB
+    </div>
+    <button>Try Now</button>
+    <script>
+        var a=document.querySelector("#img");
+        var b=document.querySelector(".specs");
+        a.addEventListener('mouseover',function(){
+            b.style.display="block";
+            b.style.transition="all 2s ease-in-out";
+        });
+        a.addEventListener('mouseout',function(){
+            b.style.display="none";
+         })
+        </script>
+</body>
+</html>
